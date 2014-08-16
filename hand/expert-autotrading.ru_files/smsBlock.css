@@ -1,0 +1,39 @@
+.smsBlock {
+	width: 225px;
+	height: 330px;
+	overflow: hidden;
+}
+
+.smsBlock #messageSms {
+	width: 10000px;
+	overflow: hidden;
+	position: relative;
+}
+
+.smsBlock #messageSms .sms {
+	float: left;
+}
+
+.phoneButton > p > a {
+	color: white;
+	font-size: 15px;
+	font-family: "Comic Sans MS";
+	line-height: 18px;
+	text-shadow: 1px 1px 1px #028ac7;
+	text-decoration: none;
+	position: relative;
+	top:35px;
+	left: 12px;
+}
+
+.phoneButton > p > a > .word1 {
+	position: absolute;
+	top: 40%;
+	left: -5px;
+}
+
+.phoneButton > p > a > .word2 {
+	position: absolute;	
+	top: 20px;
+	left: 20px;
+}
